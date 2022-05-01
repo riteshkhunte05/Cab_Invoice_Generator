@@ -50,7 +50,7 @@ public class InvoiceServiceTest {
     @Test
     public void givenUserId_shouldReturnInvoiceSummary() {
         invoiceGenerator = new InvoiceGenerator();
-        String userId = "sunilgollapalli@gmail.com";
+        String userId = "riteshkhunte05@gmail.com";
         Ride[] rides = {new Ride(2.0, 5),
                 new Ride(0.1, 1)};
         invoiceGenerator.addRides(userId, rides);
